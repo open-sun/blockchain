@@ -27,12 +27,12 @@ my_public_key = my_private_key.pub
 # bank_private_key.
 
 ex2a_txout_scriptPubKey = CScript([
-    2,  # OP_2
+    2,  
     my_public_key,
     cust1_public_key,
     cust2_public_key,
     cust3_public_key,
-    4,  # OP_4
+    4,  
     OP_CHECKMULTISIG
 ])
 ######################################################################
