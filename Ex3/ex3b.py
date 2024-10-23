@@ -9,16 +9,16 @@ from ex3a import ex3a_txout_scriptPubKey
 
 ######################################################################
 # TODO: set these parameters correctly
-amount_to_send = None
-txid_to_spend = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-utxo_index = None
+amount_to_send = 0.000020
+txid_to_spend = 'd893f6870404f4b71362008edad97ebc42f5c5abdd2c55968c9231b438720429'
+utxo_index = 0
 ######################################################################
 
 txin_scriptPubKey = ex3a_txout_scriptPubKey
 ######################################################################
 # TODO: implement the scriptSig for redeeming the transaction created
 # in  Exercise 3a.
-txin_scriptSig = []
+txin_scriptSig = [1317,895]
 ######################################################################
 txout_scriptPubKey = P2PKH_scriptPubKey(faucet_address)
 
