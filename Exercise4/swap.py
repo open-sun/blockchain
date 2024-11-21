@@ -63,13 +63,15 @@ alice_txid_to_spend     = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 alice_utxo_index        = None
 alice_amount_to_send    = None
 
+
+#58d7e77a7e45f202a67babe8687276068fda5c9442474f1095fb4bba89a3715e 
 bob_txid_to_spend       = "58d7e77a7e45f202a67babe8687276068fda5c9442474f1095fb4bba89a3715e"
 bob_utxo_index          = 0
 bob_amount_to_send      = 0.01
 
 # Get current block height (for locktime) in 'height' parameter for each blockchain (and put it into swap.py):
 #  curl https://api.blockcypher.com/v1/btc/test3
-btc_test3_chain_height  = 1439691
+btc_test3_chain_height  = 1439691#都要获取实时的
 
 #  curl https://api.blockcypher.com/v1/bcy/test
 bcy_test_chain_height   = 2062296

@@ -26,8 +26,6 @@ def coinExchangeScriptSig1(sig_recipient, secret):
         # fill this in!
         secret,
         sig_recipient
-
-
     ]
 
 # This is the ScriptSig for sending coins back to the sender if unredeemed
