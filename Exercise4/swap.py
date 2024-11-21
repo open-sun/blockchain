@@ -63,7 +63,7 @@ alice_txid_to_spend     = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 alice_utxo_index        = None
 alice_amount_to_send    = None
 
-bob_txid_to_spend       = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+bob_txid_to_spend       = "58d7e77a7e45f202a67babe8687276068fda5c9442474f1095fb4bba89a3715e"
 bob_utxo_index          = 0
 bob_amount_to_send      = 0.01
 
