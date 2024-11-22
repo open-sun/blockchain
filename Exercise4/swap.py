@@ -83,6 +83,7 @@ bob_locktime = 3
 
 tx_fee = 0.001
 
+#一共四种，可以都先设置Alice false这样钱不会花出去，然后再设置false
 broadcast_transactions = False
 alice_redeems = False
 
