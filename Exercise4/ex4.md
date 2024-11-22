@@ -3,8 +3,7 @@
 Alice
 
 ```shell
-Private key: cUpCNaMwCphDA1NRoeFiSNQhQghDAHCiKnAHjsAYhtC7brHWxSLu
-Address: mjctYGeicFgM3q81mjsPW6YSX28ZLVHYQ2
+
 ```
 
 Bob
@@ -19,10 +18,10 @@ Address: mmjoy4sU72BmkgF9QTVuA9Q4A2uMgRTbVn
 注册账户获取API token
 
 ```shell
-Token d6fe7373f62f476a876df5d633e4293d
+
 ```
 
-<img src="./pic/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20231024102623.png" style="zoom: 33%;" />
+
 
 创建密钥
 
@@ -112,16 +111,26 @@ bob_locktime = 3
 运行swap.py
 
 ```python
+这里首先设置为不进行广播，并且回退交易
 broadcast_transactions = False
 alice_redeems = False
 ```
+output
 
+```shell
+
+```
 
 ```python
+接下来设置为进行交易
 broadcast_transactions = False
 alice_redeems = True
 ```
+output
 
+```shell
+
+```
 
 ```python
 broadcast_transactions = True
@@ -138,7 +147,11 @@ output
 broadcast_transactions = True
 alice_redeems = True
 ```
+output
 
+```shell
+
+```
 
 
 
