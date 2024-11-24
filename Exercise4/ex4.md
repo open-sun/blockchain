@@ -3,7 +3,8 @@
 Alice
 
 ```shell
-
+Private key: cNmvHb4PKqqYfcSqn2fYXT24eYVorpEuE8P74DPmUAZMw7F5jGuj
+Address: mrjw9kGnUfcCEAYWXkSB5du1eoSCwsFNPP
 ```
 
 Bob
@@ -13,12 +14,147 @@ Private key: cUaHgy7dvDm3b3shFPU6VBXd6Jv6q176FHBP1u2sXWA1dePpO9p3
 Address: mmjoy4sU72BmkgF9QTVuA9Q4A2uMgRTbVn
 ```
 
+# BTC
+
+为Alice在BTC上领取测试币
+
+https://live.blockcypher.com/btc-testnet/tx/8c4f295adb8955df01cabd6d4b2bd17b14584f13ecf506359b3e2fbe2d44559a/
+
+领币成功
+![](BTC1.png)
+![](BTC2.png)
+
+分币为10笔交易
+
+```json
+201 Created
+{
+  "tx": {
+    "block_height": -1,
+    "block_index": -1,
+    "hash": "90097821d25dfab51e56fdcf62735381d644acdeb3f9a765a3a21f5c3cba72ef",
+    "addresses": [
+      "mrjw9kGnUfcCEAYWXkSB5du1eoSCwsFNPP"
+    ],
+    "total": 300,
+    "fees": 26617,
+    "size": 497,
+    "vsize": 497,
+    "preference": "low",
+    "relayed_by": "111.33.78.6",
+    "received": "2024-11-23T17:13:34.60994977Z",
+    "ver": 1,
+    "double_spend": false,
+    "vin_sz": 1,
+    "vout_sz": 10,
+    "confirmations": 0,
+    "inputs": [
+      {
+        "prev_hash": "8c4f295adb8955df01cabd6d4b2bd17b14584f13ecf506359b3e2fbe2d44559a",
+        "output_index": 1,
+        "script": "473044022006e960a18b03a378424e82049975a549b797d721521ac09c2e8e15974ddae8cf022074ad6bcac17e7385f256afa301b8617787b6c2937f714db6a81d85aedc4fd237012103c064596880c1aff1e77c8875cf507f92aecd2a7a8e865f6edda10f9242e3659c",
+        "output_value": 26917,
+        "sequence": 4294967295,
+        "addresses": [
+          "mrjw9kGnUfcCEAYWXkSB5du1eoSCwsFNPP"
+        ],
+        "script_type": "pay-to-pubkey-hash",
+        "age": 0
+      }
+    ],
+    "outputs": [
+      {
+        "value": 30,
+        "script": "76a9147b1dd63903518a5db143091465036a343f74bf2788ac",
+        "addresses": [
+          "mrjw9kGnUfcCEAYWXkSB5du1eoSCwsFNPP"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 30,
+        "script": "76a9147b1dd63903518a5db143091465036a343f74bf2788ac",
+        "addresses": [
+          "mrjw9kGnUfcCEAYWXkSB5du1eoSCwsFNPP"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 30,
+        "script": "76a9147b1dd63903518a5db143091465036a343f74bf2788ac",
+        "addresses": [
+          "mrjw9kGnUfcCEAYWXkSB5du1eoSCwsFNPP"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 30,
+        "script": "76a9147b1dd63903518a5db143091465036a343f74bf2788ac",
+        "addresses": [
+          "mrjw9kGnUfcCEAYWXkSB5du1eoSCwsFNPP"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 30,
+        "script": "76a9147b1dd63903518a5db143091465036a343f74bf2788ac",
+        "addresses": [
+          "mrjw9kGnUfcCEAYWXkSB5du1eoSCwsFNPP"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 30,
+        "script": "76a9147b1dd63903518a5db143091465036a343f74bf2788ac",
+        "addresses": [
+          "mrjw9kGnUfcCEAYWXkSB5du1eoSCwsFNPP"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 30,
+        "script": "76a9147b1dd63903518a5db143091465036a343f74bf2788ac",
+        "addresses": [
+          "mrjw9kGnUfcCEAYWXkSB5du1eoSCwsFNPP"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 30,
+        "script": "76a9147b1dd63903518a5db143091465036a343f74bf2788ac",
+        "addresses": [
+          "mrjw9kGnUfcCEAYWXkSB5du1eoSCwsFNPP"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 30,
+        "script": "76a9147b1dd63903518a5db143091465036a343f74bf2788ac",
+        "addresses": [
+          "mrjw9kGnUfcCEAYWXkSB5du1eoSCwsFNPP"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      },
+      {
+        "value": 30,
+        "script": "76a9147b1dd63903518a5db143091465036a343f74bf2788ac",
+        "addresses": [
+          "mrjw9kGnUfcCEAYWXkSB5du1eoSCwsFNPP"
+        ],
+        "script_type": "pay-to-pubkey-hash"
+      }
+    ]
+  }
+}
+```
+
 # BCY
 
 注册账户获取API token
 
 ```shell
-
+Alice:7fd067d5ba3f45dcbd69a9accdb63d80
+Bob:edd09d454064449e9eba503252f1bfc0
 ```
 
 
@@ -28,7 +164,13 @@ Address: mmjoy4sU72BmkgF9QTVuA9Q4A2uMgRTbVn
 Alice
 
 ```shell
-
+>curl -X POST https://api.blockcypher.com/v1/bcy/test/addrs?token=edd09d454064449e9eba503252f1bfc0
+{
+  "private": "5e5270a7adba1fd5de9f2f108b5c8fee1c700145ab840a37ad89ff77bf985d28",
+  "public": "02159a749dbb956217d6f0d4401bbf0e34178f26dc9aa74eb8ce6b96b85df8fdfa",
+  "address": "C2LDuH2Jz2LqWFLn5s6UvLk4SaX3ZCjLRG",
+  "wif": "BrVP2BhXSXhRidShr2WxUnZgybdKf8Fq2esk62z5HBv6WUoHrz5z"
+}
 ```
 
 Bob

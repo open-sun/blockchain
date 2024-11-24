@@ -14,11 +14,11 @@ SelectParams('testnet')
 # Only to be imported by alice.py
 # Alice should have coins!!
 alice_secret_key_BTC = CBitcoinSecret(
-    'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+    'cNmvHb4PKqqYfcSqn2fYXT24eYVorpEuE8P74DPmUAZMw7F5jGuj')
 
 # Only to be imported by bob.py
 bob_secret_key_BTC = CBitcoinSecret(
-    'cUaHgy7dvDm3b3shFPU6VBXd6Jv6q176FHBP1u2sXWA1dePpO9p3')
+    'cUaHgy7dvDm3b3shFPU6vBXd6Jv6q176FHBP1u2sXWA1dePpQ9p3')
 
 ######################################################################
 #
@@ -32,7 +32,7 @@ bob_secret_key_BTC = CBitcoinSecret(
 
 # Only to be imported by alice.py
 alice_secret_key_BCY = CBitcoinSecret.from_secret_bytes(
-    x('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'))
+    x('5e5270a7adba1fd5de9f2f108b5c8fee1c700145ab840a37ad89ff77bf985d28'))
 
 # Only to be imported by bob.py
 # Bob should have coins!!
